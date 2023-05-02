@@ -1,0 +1,84 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color */
+body {
+  background-color: #f4faff;
+}
+
+/* Set global font styles */
+body, input, button, select, textarea {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+/* Set link styles */
+a {
+  color: #0072C6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Set header styles */
+header {
+  background-color: #0072C6;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Set navigation styles */
+nav {
+  background-color: #EFEFEF;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #000;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #D8D8D8;
+}
+
+/* Set main content styles */
+main {
+  padding: 10px;
+}
+
+/* Set footer styles */
+footer {
+  background-color: #0072C6;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
